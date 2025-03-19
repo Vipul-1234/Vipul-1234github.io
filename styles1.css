@@ -1,0 +1,67 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Use a clean sans-serif font */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding */
+     /* Set a gradient background */
+     background: linear-gradient(to right, #ff7e5f, #feb47b);
+     /* Set a background image */
+     background-image: url('back.jpg');
+     /* Make the background cover the entire page */
+     background-size: cover;
+     /* Center the background image */
+     background-position: center;
+     /* Prevent the background from repeating */
+     background-repeat: no-repeat;
+     /* Set a fallback background color */
+     background-color: #f0f0f0; /* Light gray */
+     /* Set the height to cover the viewport */
+     height: 100vh; /* Full height of the viewport */
+     margin: 0; /* Remove default margin */
+     display: flex; /* Center content */
+     justify-content: center; /* Center horizontally */
+     align-items: center; /* Center vertically */
+     color: white; /* Text color */
+     text-align: center; /* Center text */
+}
+
+/* Container styles */
+.container {
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: auto; /* Center the container */
+    background: white; /* White background for the container */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center; /* Center the heading */
+    color: #28a745; /* Green color for the heading */
+}
+
+/* Paragraph styles */
+p {
+    font-size: 18px; /* Slightly larger font size for paragraphs */
+    color: #333; /* Dark gray color for text */
+    margin: 10px 0; /* Add some margin above and below paragraphs */
+}
+
+/* Link styles */
+a {
+    display: inline-block; /* Make the link a block element */
+    margin-top: 20px; /* Add some space above the link */
+    padding: 10px 15px; /* Add padding to the link */
+    background-color: #007bff; /* Blue background for the link */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners for the link */
+    text-align: center; /* Center the text in the link */
+}
+
+/* Link hover effect */
+a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
