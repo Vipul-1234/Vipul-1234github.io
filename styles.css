@@ -1,0 +1,145 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    /* Set a gradient background */
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    /* Set a background image */
+    background-image: url('back.jpg');
+    /* Make the background cover the entire page */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    /* Prevent the background from repeating */
+    background-repeat: no-repeat;
+    /* Set a fallback background color */
+    background-color: #f0f0f0; /* Light gray */
+    /* Set the height to cover the viewport */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.container:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: #333; /* Darker color for better contrast */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+img {
+    width: 40;
+    height: 30;
+    border: 2px solid #000; /* Adds a black border */
+    border-radius: 10px;    /* Rounds the corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+}
+
+/* Logo styles */
+#logo {
+    max-width: 50; /* Make the logo responsive */
+    height: 30;    /* Maintain aspect ratio */
+    display: block;  /* Center the logo */
+    margin: 0 auto;  /* Center the logo horizontally */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+/* Input styles */
+.id-input {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #28a745; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #286ea7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background color and scale */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px); /* Slightly lift the button on hover */
+}
+
+/* Hidden class */
+.hidden {
+    display: none;
+}
+
+/* Congratulations message styles */
+#congratulationsMessage {
+    text-align: center;
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease; /* Fade-in animation */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start transparent */
+    }
+    to {
+        opacity: 1; /* End fully visible */
+    }
+}
+
+/* Link styles */
+a {
+    display: inline-block; /* Make the link a block element */
+    margin-top: 20px; /* Add some space above the link */
+    padding: 10px 15px; /* Add padding to the link */
+    background-color: #007bff; /* Blue background for the link */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners for the link */
+    text-align: center; /* Center the text in the link */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
